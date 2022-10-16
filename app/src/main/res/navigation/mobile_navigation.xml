@@ -12,14 +12,39 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.primeraapp.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/alinearTexto"
+        android:name="com.example.primeraapp.AlinearTexto"
+        android:label="fragment_alinear_texto"
+        tools:layout="@layout/fragment_alinear_texto" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.primeraapp.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/cambiarColor"
+        android:name="com.example.primeraapp.CambiarColor"
+        android:label="fragment_cambiar_color"
+        tools:layout="@layout/fragment_cambiar_color" />
+    <fragment
+        android:id="@+id/cambiarTexto"
+        android:name="com.example.primeraapp.CambiarTexto"
+        android:label="fragment_cambiar_texto"
+        tools:layout="@layout/fragment_cambiar_texto" />
+    <fragment
+        android:id="@+id/galeria"
+        android:name="com.example.primeraapp.Galeria"
+        android:label="fragment_galeria"
+        tools:layout="@layout/fragment_galeria" />
+    <fragment
+        android:id="@+id/imagen"
+        android:name="com.example.primeraapp.imagen"
+        android:label="fragment_imagen"
+        tools:layout="@layout/fragment_imagen" />
+    <fragment
+        android:id="@+id/suma"
+        android:name="com.example.primeraapp.Suma"
+        android:label="fragment_sumar"
+        tools:layout="@layout/fragment_sumar" />
+    <fragment
+        android:id="@+id/textoMasMenos"
+        android:name="com.example.primeraapp.TextoMasMenos"
+        android:label="fragment_texto_mas_menos"
+        tools:layout="@layout/fragment_texto_mas_menos" />
 </navigation>

@@ -10,24 +10,31 @@
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/menu_home" />
         <item
+            android:id="@+id/suma"
             android:icon="@drawable/ic_baseline_add_24"
             android:title="@string/sumar" />
         <item
+            android:id="@+id/cambiarColor"
             android:icon="@drawable/ic_baseline_brush_24"
             android:title="@string/cambiarcolor" />
         <item
+            android:id="@+id/galeria"
             android:icon="@drawable/ic_menu_gallery"
             android:title="@string/galer_a" />
         <item
+            android:id="@+id/imagen"
             android:icon="@drawable/ic_baseline_image_24"
             android:title="@string/imagen" />
         <item
+            android:id="@+id/alinearTexto"
             android:icon="@drawable/ic_baseline_text_rotation_none_24"
             android:title="@string/alineartexto" />
         <item
+            android:id="@+id/textoMasMenos"
             android:icon="@drawable/ic_baseline_text_fields_24"
             android:title="@string/texto" />
         <item
+            android:id="@+id/cambiarTexto"
             android:icon="@drawable/ic_baseline_text_rotate_vertical_24"
             android:title="@string/cambiartexto" />
     </group>
